@@ -257,20 +257,20 @@
 import { onMounted } from 'vue'
 // const $ = window.$
 
-onMounted(() => {
-  setTimeout(() => {
-    try {
-      $('.sortable-masonry .items-container').isotope({
-        filter: $(this).attr('data-filter'),
-        animationOptions: {
-          duration: 500,
-          easing: 'linear',
-          queue: false
-        }
-      })
-    } catch (err) {
-      // console.log(err);
-    }
-  }, 500)
-})
+// onMounted(() => {
+//   setTimeout(() => {
+//     try {
+//       $('.sortable-masonry .items-container').isotope({
+//         filter: $(this).attr('data-filter'),
+//         animationOptions: {
+//           duration: 500,
+//           easing: 'linear',
+//           queue: false
+//         }
+//       })
+//     } catch (err) {
+//       // console.log(err);
+//     }
+//   }, 500)
+// })
 </script>

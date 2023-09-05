@@ -1,9 +1,10 @@
-export default () => {
-    (function ($) {
+// export default () => {
+(function ($) {
 
-        "use strict";
+    "use strict";
 
 
+    const to = setTimeout(() => {
         //Hide Loading Box (Preloader)
         function handlePreloader () {
             if ($('.preloader').length) {
@@ -478,5 +479,7 @@ export default () => {
         sortableMasonry();
         // });
 
-    })(window.jQuery);
-}
+        clearTimeout(to);
+    }, 2500)
+})(window.jQuery);
+// }
