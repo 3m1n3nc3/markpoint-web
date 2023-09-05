@@ -14,7 +14,7 @@
 import HeaderSection from '../layouts/partials/HeaderSection.vue'
 import FooterSection from '../layouts/partials/FooterSection.vue'
 import { onMounted } from 'vue'
-import mainScript from '/js/script.js?url'
+import mainScript from '../assets/script.js'
 
 onMounted(() => {
   mainScript()

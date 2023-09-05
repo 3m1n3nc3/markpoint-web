@@ -131,7 +131,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import mainSliderScript from '/js/main-slider-script.js?url'
+import mainSliderScript from '../../assets/main-slider-script.js'
 
 defineProps({
   type: {
