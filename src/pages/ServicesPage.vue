@@ -1,20 +1,15 @@
 <script setup>
-import { computed, nextTick } from 'vue'
+import { computed, nextTick, watch } from 'vue'
 import MainHeaderSection from '../layouts/partials/MainHeaderSection.vue'
-import { onBeforeRouteUpdate, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 const scrollTop = () => {
   window.scrollTo({
     top: 0,
     behavior: 'instant'
   })
 }
-
-// Scroll to top when route changes
-onBeforeRouteUpdate(() => {
-  setTimeout(() => {
-    scrollTop()
-  }, 400)
-})
 
 const services = [
   {
@@ -91,9 +86,15 @@ const services = [
   }
 ]
 
-const route = useRoute()
 const service = computed(() => {
   return services.find((service) => service.id == route.params.service) || services[0] || {}
+})
+
+// Scroll to top when route changes
+watch(service, () => {
+  nextTick(() => {
+    scrollTop()
+  })
 })
 </script>
 <template>
