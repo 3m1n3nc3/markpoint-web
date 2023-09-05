@@ -255,7 +255,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-const $ = window.$
+// const $ = window.$
 
 onMounted(() => {
   setTimeout(() => {
