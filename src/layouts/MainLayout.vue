@@ -13,10 +13,10 @@
 <script setup>
 import HeaderSection from '../layouts/partials/HeaderSection.vue'
 import FooterSection from '../layouts/partials/FooterSection.vue'
-import { onMounted } from 'vue'
-import mainScript from '../assets/script.js'
+// import { onMounted } from 'vue'
+// import mainScript from '../assets/script.js'
 
-onMounted(() => {
-  mainScript()
-})
+// onMounted(() => {
+//   mainScript()
+// })
 </script>

@@ -130,8 +130,8 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
-import mainSliderScript from '../../assets/main-slider-script.js'
+// import { onMounted } from 'vue'
+// import mainSliderScript from '../../assets/main-slider-script.js'
 
 defineProps({
   type: {
@@ -145,7 +145,7 @@ defineProps({
   }
 })
 
-onMounted(() => {
-  mainSliderScript()
-})
+// onMounted(() => {
+//   mainSliderScript()
+// })
 </script>
