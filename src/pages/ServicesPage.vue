@@ -1,13 +1,21 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, nextTick } from 'vue'
 import MainHeaderSection from '../layouts/partials/MainHeaderSection.vue'
-import { useRoute } from 'vue-router'
+import { onBeforeRouteUpdate, useRoute } from 'vue-router'
 const scrollTop = () => {
   window.scrollTo({
     top: 0,
     behavior: 'instant'
   })
 }
+
+// Scroll to top when route changes
+onBeforeRouteUpdate(() => {
+  setTimeout(() => {
+    scrollTop()
+  }, 400)
+})
+
 const services = [
   {
     id: 1,
@@ -105,10 +113,7 @@ const service = computed(() => {
                   :class="{ active: service.id == serve.id }"
                   v-for="serve in services"
                 >
-                  <RouterLink
-                    :to="{ name: 'services.page', params: { service: serve.id } }"
-                    @click="scrollTop"
-                  >
+                  <RouterLink :to="{ name: 'services.page', params: { service: serve.id } }">
                     {{ serve.title }}
                   </RouterLink>
                 </li>
