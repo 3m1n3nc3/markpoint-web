@@ -11,7 +11,7 @@
           </li>
           <li>
             <span class="icon flaticon-envelope-1"></span>Email us : <br />
-            markpointmultilinksnigltd@gmail.com
+            markpoint277@gmail.com
           </li>
           <li>
             <span class="icon flaticon-technology-2"></span>Call us : <br />
@@ -38,16 +38,14 @@
                   </div>
                   <ul class="social-icon-two">
                     <li>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a target="_blank" href="https://www.instagram.com/markpointng">
+                        <span class="fa-brands fa-instagram"></span>
+                      </a>
                     </li>
                     <li>
-                      <a href="#"><span class="fa fa-linkedin-square"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="fa fa-facebook-square"></span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span class="fa fa-skype"></span></a>
+                      <a target="_blank" href="https://x.com/markpointng">
+                        <span class="fa-brands fa-x-twitter"></span>
+                      </a>
                     </li>
                   </ul>
                 </div>

@@ -19,8 +19,8 @@
                 </a>
               </li>
               <li>
-                <a href="mailto:markpointmultilinksnigltd@gmail.com" target="_blank">
-                  <span class="icon fa fa-envelope-o"></span>markpointmultilinksnigltd@gmail.com
+                <a href="mailto:markpoint277@gmail.com" target="_blank">
+                  <span class="icon fa fa-envelope-o"></span>markpoint277@gmail.com
                 </a>
               </li>
             </ul>
@@ -33,16 +33,14 @@
               <ul class="clearfix">
                 <li>Stay Connected :</li>
                 <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a target="_blank" href="https://www.instagram.com/markpointng">
+                    <span class="fa-brands fa-instagram"></span>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><span class="fa fa-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-google-plus"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-linkedin"></span></a>
+                  <a target="_blank" href="https://x.com/markpointng">
+                    <span class="fa-brands fa-x-twitter"></span>
+                  </a>
                 </li>
               </ul>
             </div>
